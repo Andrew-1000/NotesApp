@@ -1,0 +1,2 @@
+rootProject.name='NotesAppMVVM'
+include ':app'
