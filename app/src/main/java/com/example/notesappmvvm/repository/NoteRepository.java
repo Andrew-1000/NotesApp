@@ -1,9 +1,13 @@
-package com.example.notesappmvvm;
+package com.example.notesappmvvm.repository;
 
 import android.app.Application;
 import android.os.AsyncTask;
 
 import androidx.lifecycle.LiveData;
+
+import com.example.notesappmvvm.dao.NoteDao;
+import com.example.notesappmvvm.database.NoteDatabase;
+import com.example.notesappmvvm.model.Note;
 
 import java.util.List;
 

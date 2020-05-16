@@ -1,4 +1,4 @@
-package com.example.notesappmvvm;
+package com.example.notesappmvvm.view;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -11,6 +11,8 @@ import android.view.MenuItem;
 import android.widget.EditText;
 import android.widget.NumberPicker;
 import android.widget.Toast;
+
+import com.example.notesappmvvm.R;
 
 import es.dmoral.toasty.Toasty;
 
