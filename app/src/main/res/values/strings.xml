@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">NotesAppMVVM</string>
+    <string name="one">1</string>
+    <string name="description">Description</string>
+    <string name="title">Title</string>
+    <string name="priority">Priority</string>
+    <string name="save">Save</string>
+    <string name="delete_all_notes">Delete All Notes</string>
 </resources>
