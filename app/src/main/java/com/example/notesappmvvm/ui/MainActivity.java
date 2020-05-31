@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onChanged(List<Note> notes) {
                 //update RecyclerView
-
+                adapter.notifyDataSetChanged();
                 adapter.submitList( notes );
             }
         } );
@@ -108,6 +108,7 @@ public class MainActivity extends AppCompatActivity {
             Toasty.success( this, "Note Saved", Toast.LENGTH_LONG ).show();
         } else if (requestCode == EDIT_NOTE_REQUEST && resultCode == RESULT_OK) {
 
+            assert data != null;
             int id = data.getIntExtra( AddEditNoteActivity.EXTRA_ID, -1 );
 
             if (id == -1) {
